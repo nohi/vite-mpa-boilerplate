@@ -22,10 +22,6 @@ export default {
         emptyOutDir: true,
         rollupOptions: {
             input: rollupOptionsInput,
-            // input: {
-            //     main: path.resolve(__dirname, srcDir, 'index.html'),
-            //     // privacy: path.resolve(__dirname, root, 'subdir/sub.html')
-            // }
         }
     },
     plugins: [
