@@ -1,0 +1,1 @@
+vite + handlebars(partial html) + sass
