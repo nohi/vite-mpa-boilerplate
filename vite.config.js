@@ -9,7 +9,7 @@ const htmlGlob = glob.sync(`${srcDir}/**/*.html`, {
     ignore: `${srcDir}/index.html`,
 }).map(key => [key.replace('src/', ''), path.resolve(__dirname, key)])
 
-rollupOptionsInput = {
+const rollupOptionsInput = {
     main: path.resolve(__dirname, srcDir, 'index.html'),
     ...Object.fromEntries(htmlGlob)
 }
